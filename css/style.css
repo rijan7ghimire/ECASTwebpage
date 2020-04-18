@@ -75,6 +75,14 @@
             padding: 100px 50px;
         }
         
+        #language-selector .container {
+            max-width: 768px;
+            margin: auto;
+            background-color: #eee;
+            align-content: center;
+            padding: 100px 50px;
+        }
+        
         #registration-form .container .center-text {
             padding-left: 22%;
             font-size: xx-large;
@@ -113,7 +121,7 @@
         
         #main-footer {
             clear: both;
-            position: fixed;
+            position: relative;
             bottom: 0;
             width: 100%;
             text-align: center;
