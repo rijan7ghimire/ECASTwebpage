@@ -40,6 +40,10 @@
             outline: none;
         }
         
+        div {
+            display: block;
+        }
+        
         input:focus {
             border: 1px solid grey;
         }
@@ -75,12 +79,22 @@
             padding: 100px 50px;
         }
         
-        #language-selector .container {
-            max-width: 768px;
-            margin: auto;
+        #assignments .question {
+            float: left;
+            width: 45%;
+            min-height: 500px;
             background-color: #eee;
-            align-content: center;
-            padding: 100px 50px;
+            padding: 20px 20px;
+            margin: 80px 10px 10px 10px;
+        }
+        
+        #assignments .answer {
+            float: right;
+            width: 45%;
+            min-height: 500px;
+            background-color: #eee;
+            padding: 20px 20px;
+            margin: 80px 10px 10px 10px;
         }
         
         #registration-form .container .center-text {
@@ -129,6 +143,17 @@
             color: #fff;
             padding: 5px;
         }
+        
+        #main-footer-noScroll {
+            clear: both;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background: #444;
+            color: #fff;
+            padding: 5px;
+        }
         /*login box styling*/
         
         #login-form .login {
@@ -167,4 +192,14 @@
         
         #login-form .login a {
             color: rgb(38, 24, 240);
+        }
+        /* Colors */
+        
+        .black {
+            background-color: #111;
+            margin: 10px;
+        }
+        
+        .black:hover {
+            background: rgb(116, 153, 155);
         }
